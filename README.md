@@ -1,1 +1,3 @@
-A simple command-line application.
+# Hecono Bot
+
+A simple bot in dart.

@@ -1,8 +1,11 @@
+import 'dart:io';
+
 import 'package:nyxx/nyxx.dart';
 
 void main() {
+  final envToken = Platform.environment['TOKEN'];
   final bot = NyxxFactory.createNyxxWebsocket(
-      "MTAwMTg3NzM1MTk5MjQxMDI1Mg.GmlhaD.0C9vsRBqeOWduYiRvcGxibBRQQ2Ej05G3qsGOU",
+      '$envToken',
       GatewayIntents.guilds |
       GatewayIntents.messageContent |
       GatewayIntents.guildMessages
