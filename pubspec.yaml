@@ -9,6 +9,13 @@ environment:
 # dependencies:
 #   path: ^1.8.0
 
+publish_to: none
+
 dev_dependencies:
   lints: ^2.0.0
-dependencies: {nyxx: ^4.0.0}
+  
+dependencies: 
+  nyxx: ^4.0.0
+  nyxx_commands: 
+    git: https://github.com/nyxx-discord/nyxx_commands.git
+  
